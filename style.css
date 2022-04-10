@@ -6,6 +6,7 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
 header {
     background-color: rgba(248, 248, 248, 0.995);
     width: 100%;
@@ -16,6 +17,7 @@ header {
     align-items: center;
     padding: 10px 200px;
 }
+
 .logo {
     text-decoration: none;
     color: rgb(65, 65, 236);
@@ -23,6 +25,7 @@ header {
     font-weight: 700;
     font-size: 1.8em;
 }
+
 .navigation a {
     text-decoration: none;
     color: rgb(65, 65, 236);
@@ -30,9 +33,11 @@ header {
     font-weight: 500;
     padding-left: 30px;
 }
+
 .navigation a:hover {
     color: #601cfc;
 }
+
 section {
     padding: 100px 200px;
 }
@@ -42,7 +47,7 @@ section {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url("images/home.png") no-repeat;
+    background: url("images/home0.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -50,11 +55,13 @@ section {
     this proprty useful when scrolling make photo fixed
     */
 }
+
 .main h2 {
     color: #fff;
     font-size: 1.4em;
     font-weight: 500;
 }
+
 .main h2 span {
     color: #4e6eff;
     font-size: 2.3em;
@@ -62,6 +69,7 @@ section {
     display: inline-block;
     margin-top: 10px;
 }
+
 .main h3 {
     color: #fff;
     font-weight: 700;
@@ -70,6 +78,7 @@ section {
     font-size: 2em;
     margin-bottom: 30px;
 }
+
 .main-btn {
     text-decoration: none;
     letter-spacing: 1px;
@@ -83,15 +92,18 @@ section {
     margin-bottom: 40px;
     transition: 0.7s ease;
 }
+
 .main-btn:hover {
     background-color: #0f37eb;
     transform: scale(1.1);
 }
+
 .social-icons a {
     color: #fff;
     font-size: 1.7em;
     padding-right: 20px;
 }
+
 .title {
     display: flex;
     justify-content: center;
@@ -100,12 +112,14 @@ section {
     font-size: 2.2em;
     margin-bottom: 30px;
 }
+
 .content {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .card {
     background-color: #fff;
     width: 20.2em;
@@ -115,29 +129,36 @@ section {
     margin: 15px;
     transition: 0.7s ease;
 }
+
 .card:hover {
     transform: scale(1.1);
 }
+
 .icon {
     color: #4e6eff;
     font-size: 8em;
     text-align: center;
 }
+
 .info {
     text-align: center;
 }
+
 .info h3 {
     color: #4e6eff;
     font-weight: 700;
     font-size: 1.2em;
     margin-top: 10px;
 }
+
 .projects {
     background-color: #000016;
 }
+
 .projects .content {
     margin-top: 30px;
 }
+
 .project-card {
     background-color: #fff;
     border: 1px solid #fff;
@@ -148,6 +169,7 @@ section {
     margin: 20px;
     transition: 0.7s ease;
 }
+
 .project-card:hover {
     transform: scale(1.1);
 }
@@ -155,17 +177,21 @@ section {
 .project-card:hover .project-img {
     opacity: 0.9;
 }
+
 .project-img img {
     width: 100%;
     height: 200px;
 }
+
 .project-info {
     padding: 1em;
 }
+
 .project-category {
     font-size: 0.8em;
     color: #000;
 }
+
 .project-title {
     display: flex;
     justify-content: space-between;
@@ -173,22 +199,28 @@ section {
     font-weight: 800;
     margin-top: 10px;
 }
+
 .more-details {
     text-decoration: none;
     color: #4e6eff;
 }
+
 .more-details:hover {
     color: #601cfc;
 }
+
 .contact .icon {
     font-size: 4.5em;
 }
+
 .contact .info h3 {
     color: #000;
 }
+
 .contact .info p {
     font-size: 1.5em;
 }
+
 .footer {
     background-color: #000016;
     color: #fff;
@@ -196,6 +228,7 @@ section {
     display: flex;
     justify-content: space-between;
 }
+
 .footer-title {
     font-size: 1.3em;
     font-weight: 600;
@@ -204,10 +237,12 @@ section {
 .footer-title span {
     color: #4e6eff;
 }
+
 .footer .social-icons a {
     font-size: 1.3em;
     padding: 0 12px 0 0;
 }
+
 @media (max-width: 1023px) {
     header {
         padding: 10px 10px;
@@ -232,9 +267,11 @@ section {
         align-items: center;
     }
 }
+
 @media (max-width: 641px) {
     body {
-        font-size: 12px; /* here 1em will = 12px instaed of 16px */
+        font-size: 12px;
+        /* here 1em will = 12px instaed of 16px */
     }
     .main h2 {
         font-size: 0.8em;
@@ -243,8 +280,10 @@ section {
         font-size: 1.4em;
     }
 }
+
 @media (max-width: 300px) {
     body {
-        font-size: 10px; /* here 1em will = 10px instaed of 16px */
+        font-size: 10px;
+        /* here 1em will = 10px instaed of 16px */
     }
 }
